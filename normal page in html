@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset =" utf-8" />
+    <title>winner academy of excellence</title>
+</head>
+<body>
+    <h1><sup>winner academy of excellence</sup></h1>
+    <h2><strong>stay skilled relevant</strong></h2>
+    <h3><em>cultural alignment and localisation</em></h3>
+    <h5><mark> interactivity</mark></h5>
+    <h6><ins>hello</h6>
+    <p>this is example</p>
+    <a href="https://www.google.com">visit google</a>
+    <br/>
+    <img src="IMG-20180821-WA0001.jpg" width="50" height="50" />
+    <hr/>
+    <button type="button"onclick="alert('hello student!')">hit me</button>
+    <ul>
+        <li>html5</li>
+        <li>css</li>
+        <li>bootstrap</li>
+    </ul>
+    <ol>
+        <li>html</li>
+        <li>css</li>
+        <li>bootstrap</li>
+    </ol>
+
+</body>
+</html>
