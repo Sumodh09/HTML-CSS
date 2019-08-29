@@ -1,0 +1,165 @@
+<html>
+<head><title>WEB LAYOUT</title>
+</head>
+<style>
+.padding{
+padding:0px;
+margin:0px;
+}
+.head{
+height:200px;
+width:1366px;
+}
+.head2{
+margin-top:0px;
+height:50px;
+width:1366px;
+background-color:0000FF;
+position:absolute;
+}
+
+.button5{
+height:30px;
+width:260px;
+background-color:blue;
+}
+.button6{
+height:30px;
+width:260px;
+background-color:blue;
+}
+.button7{
+height:30px;
+width:260px;
+background-color:blue;
+}
+.head3{
+margin-top:50px;
+height:50px;
+width:1366px;
+background-color:black;
+position: absolute;
+}
+.button{
+background-color:yellow;
+}
+.noti{
+margin-left:0px;
+margin-top:100px;
+height:600px;
+width:400px;
+background-color:white;
+position:absolute;
+}
+.noti2{
+margin-left:400px;
+margin-top:100px;
+height:200px;
+width:966px;
+position:absolute;
+}
+.noti3{
+margin-left:400px;
+margin-top:300px;
+height:400px;
+width:300px;
+background-color: white;
+position: absolute;
+}
+.button2{
+background-color:yellow;
+}
+.noti4{
+margin-left:700px;
+margin-top:300px;
+height:400px;
+width:300px;
+position: absolute;
+}
+.noti5{
+margin-left:1000px;
+margin-top:300px;
+height:400px;
+width:366px;
+background-color: white;
+position: absolute;
+}
+.button3{
+background-color:yellow;
+}
+.color{
+background-color:black;
+}
+</style>
+<body class="padding">
+<div class="head">
+<center><a href="file:///C:/Users/nice/Desktop/object%202/login.html"><input type="button" value="LOGIN"></a></center>
+<center><a href="file:///C:/Users/nice/Desktop/object%202/create%20new%20account.html"><input type="button" value="CREATE NEW ACCOUNT"></a></center>
+<image src="head.png" width=400px height=150px align=middle>
+<img src="poster.jpg" align=left>
+</div>
+<div class="head2">
+<form>
+<fieldset>
+ <button class="button5"><b><font color="white">HOME</b></button><button class="button6"><font color="white"><b>SHOP BY BRAND</b></font></button><button class="button7"><font color="white"><b>SHOP BY CATEGORY</b></font></button><button class="button5"><font color="white"><b>SHOPPING CART</font></b></button><button class="button5"><font color="white"><b>MY ACCOUNT</font></b></button>
+ </fieldset>
+ <fieldset>
+ <button class="button5"><b>SHOP BY BRAND</b></button>
+ </fieldset>
+</div>
+<div class="head3">
+<center><font color="white"><b>SEARCH=<b></font><input type="text" value="" placeholder="type here"><button class="button" onclick="window.alert('SEARCH ITEM IS NOT FOUND')">GO</button></center>
+</div>
+<div class="noti">
+<form>
+<fieldset>
+<legend class="color">SHOPPING CART</legend>
+<center><img src="shop.png" width=300px height=200px></center>
+<center><img src="shop3.jpg" width=350px height=400px></center>
+</fieldset>
+</form>
+</div>
+<div class="noti2">
+<image src="ad.jpg" width=966px height=200px>
+</div>
+<div class="noti3">
+<form>
+<fieldset>
+<legend class="color">THERMOMETER</legend>
+<img src="sell.jpg" width=250px height=200px>
+<center><h3 class="color">MRP=$5|-</h3></center>
+<center><b class="color">QUANTITY=<input type="text" name="quantity" value="" placeholder="enter the no"></b></center><br>
+<center><button class="button2">ADD TO CART</button></center>
+</fieldset>
+</form>
+</div>
+<div class="noti4">
+<form>
+<fieldset>
+<legend class="color">MRI</legend>
+<img src="sell2.jpg" width=250px height=200px>
+<center><h3 class="color">MRP=$250|-</h3></center>
+<center><b class="color">QUANTITY=<input type="text" name="quantity" value="" placeholder="enter the no"></b></center><br>
+<center><button class="button2">ADD TO CART</button></center>
+</fieldset>
+</form>
+</div>
+<div class="noti5">
+<form>
+<fieldset>
+<legend class="color">MAIL OFFERS</legend>
+<center><img src="mail.jpg" width=200px height=100px></center>
+<center><h3 class="color">Join our 100000's of subscribers</h3></center>
+<center><h3 class="color">Don't miss our next offer</h3></center>
+<ul>
+<li><a href="Special Discounts">Special Discounts</a></li>
+<li><a href="Coupons Codes">Coupons Codes</a></li>
+<li><a href="Unbeatable Deals">Unbeatable Deals</a></li>
+</ul>
+<center><input type="text" name="EMAIL" placeholder="enter the email"></center><br>
+<center><button class="button3">SIGN ME UP</button></center><br>
+</fieldset>
+</form>
+</div>
+</body>
+</html>
