@@ -1,0 +1,24 @@
+<html>
+    <style>
+    table,th,td{
+        border:1px solid black;}
+        </style>
+        <body>
+            <table>
+                <tr><th>firstname</th>
+                <th>lastname</th>
+            <th>age</th>
+        </tr>
+        <tr>
+            <td>harry</td>
+            <td>seema</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>john</td>
+            <td>smith</td>
+            <td>21</td>
+        </tr>
+            </table>
+        </body>
+</html>
